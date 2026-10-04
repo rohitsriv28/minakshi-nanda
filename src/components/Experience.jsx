@@ -13,14 +13,17 @@ export default function Experience() {
       <div
         ref={headerRef}
         className={`transition-all duration-800 ease-out ${
-          headerVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-7"
+          headerVisible
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-7"
         }`}
       >
         <div className="inline-flex items-center gap-2.5 font-mono text-[0.7rem] tracking-[0.16em] text-gold uppercase mb-4 before:content-[''] before:w-5 before:h-[1px] before:bg-gold">
           Work History
         </div>
         <h2 id="experience-heading" className="section-title text-cream">
-          Where I&apos;ve <em className="italic text-terra-lt">made an impact</em>
+          Where I&apos;ve{" "}
+          <em className="italic text-terra-lt">made an impact</em>
         </h2>
       </div>
 

@@ -1,4 +1,11 @@
-import { ArrowRight, Users, Mic, Calendar, HeartHandshake } from "lucide-react";
+import {
+  ArrowRight,
+  Users,
+  Mic,
+  Calendar,
+  HeartHandshake,
+  ExternalLink,
+} from "lucide-react";
 
 const LEADERSHIP_ITEMS = [
   {
@@ -49,12 +56,36 @@ export default function BeyondScreen() {
 
           <p className="text-[0.92rem] text-white/70 leading-[1.8] font-light mb-8 max-w-[420px]">
             Technology is only one part of what I do. I enjoy bringing people,
-            ideas and teams together.
+            ideas and teams together to build real-world opportunities.
           </p>
 
-          <a href="#contact" className="btn-outline-white">
+          <a href="#contact" className="btn-outline-white mb-10">
             See Moments <ArrowRight className="w-4 h-4" />
           </a>
+
+          {/* #3: Enterprise Impact Spotlight Card */}
+          <div className="w-full p-5 rounded-[8px] bg-white/[0.05] border border-white/10 backdrop-blur-xs flex flex-col gap-3">
+            <span className="font-mono text-[0.68rem] tracking-[0.12em] uppercase text-gold font-medium block">
+              Active Enterprise Leadership
+            </span>
+            <h3 className="font-serif text-[1.18rem] text-white font-medium leading-snug">
+              Surya Business Development Center
+            </h3>
+            <p className="text-[0.8rem] text-white/65 font-light leading-relaxed">
+              Driving operational strategy, enterprise growth, and business
+              development initiatives to support regional scaling and ecosystem
+              impact.
+            </p>
+            <a
+              href="https://www.suryabdc.com.np/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-[0.78rem] text-gold hover:text-white font-medium transition-colors no-underline pt-1 group"
+            >
+              <span>Explore suryabdc.com.np</span>
+              <ExternalLink className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+            </a>
+          </div>
         </div>
 
         {/* Right Column Grid + Banner Photo */}

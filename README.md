@@ -2,7 +2,7 @@
 
 > Personal portfolio website of **Minakshi Nanda**, a **UI/UX Designer & Business Strategist** based in Birgunj, Nepal.
 
-Designed with an editorial aesthetic (*Nature Distilled / Warm Editorial*), this portfolio showcases work at the intersection of human-centered design, business strategy, and technology.
+Designed with an editorial aesthetic (_Nature Distilled / Warm Editorial_), this portfolio showcases work at the intersection of human-centered design, business strategy, and technology.
 
 ---
 
@@ -10,9 +10,9 @@ Designed with an editorial aesthetic (*Nature Distilled / Warm Editorial*), this
 
 - **Warm Editorial Design System**: Tailored color palette (terracotta, warm sand, gold accents, deep brown) with WCAG AA compliance.
 - **Editorial Typography Stack**:
-  - *Display*: [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) (light/italic)
-  - *Body*: [DM Sans](https://fonts.google.com/specimen/DM+Sans) (300 / 400 / 500)
-  - *Labels / Eyebrows*: [DM Mono](https://fonts.google.com/specimen/DM+Mono)
+  - _Display_: [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) (light/italic)
+  - _Body_: [DM Sans](https://fonts.google.com/specimen/DM+Sans) (300 / 400 / 500)
+  - _Labels / Eyebrows_: [DM Mono](https://fonts.google.com/specimen/DM+Mono)
 - **Fluid & Accessible Interactions**:
   - Custom fluid cursor follower with hardware-accelerated RAF interpolation (automatically disabled on touch devices or under `prefers-reduced-motion`).
   - Scroll-triggered reveal animations via custom IntersectionObserver hooks.
@@ -87,12 +87,14 @@ minakshi-portfolio/
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/<your-username>/minakshi-portfolio.git
    cd minakshi-portfolio
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    # or
@@ -100,6 +102,7 @@ minakshi-portfolio/
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    # or

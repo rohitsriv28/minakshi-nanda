@@ -28,10 +28,7 @@ export default function Interests() {
         }`}
       >
         <div className="section-label justify-center">Beyond Work</div>
-        <h2
-          id="interests-heading"
-          className="section-title text-center mb-10"
-        >
+        <h2 id="interests-heading" className="section-title text-center mb-10">
           What <em>fuels me</em>
         </h2>
 

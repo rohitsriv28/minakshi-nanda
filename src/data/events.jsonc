@@ -6,7 +6,7 @@
     "years": "2023",
     "audienceSize": 200,
     "role": "Master of Ceremony",
-    "description": "Hosted the annual college symposium with an audience of over 200 attendees."
+    "description": "Hosted the annual college symposium with an audience of over 200 attendees.",
   },
   {
     "id": "e2",
@@ -15,7 +15,7 @@
     "years": "2023",
     "audienceSize": 150,
     "role": "Master of Ceremony",
-    "description": "Led the main stage announcements and speaker introductions."
+    "description": "Led the main stage announcements and speaker introductions.",
   },
   {
     "id": "e3",
@@ -24,7 +24,7 @@
     "years": "2024",
     "audienceSize": 180,
     "role": "Master of Ceremony",
-    "description": "Moderated the final pitch sessions for the college Ideathon."
+    "description": "Moderated the final pitch sessions for the college Ideathon.",
   },
   {
     "id": "e4",
@@ -33,7 +33,7 @@
     "years": "2022",
     "audienceSize": 100,
     "role": "Master of Ceremony",
-    "description": "Hosted the college alumni meet and panel discussions."
+    "description": "Hosted the college alumni meet and panel discussions.",
   },
   {
     "id": "e5",
@@ -42,7 +42,7 @@
     "years": "2021",
     "audienceSize": 150,
     "role": "Master of Ceremony",
-    "description": "Welcomed the new batch of IT students and coordinated the orientation program."
+    "description": "Welcomed the new batch of IT students and coordinated the orientation program.",
   },
   {
     "id": "e6",
@@ -51,7 +51,7 @@
     "years": "2022",
     "audienceSize": 200,
     "role": "Master of Ceremony",
-    "description": "Commentated and managed the schedule for the annual sports event."
+    "description": "Commentated and managed the schedule for the annual sports event.",
   },
   {
     "id": "e7",
@@ -60,7 +60,7 @@
     "years": "2023",
     "audienceSize": 120,
     "role": "Master of Ceremony",
-    "description": "Introduced guest speakers from the tech industry to the student body."
+    "description": "Introduced guest speakers from the tech industry to the student body.",
   },
   {
     "id": "e8",
@@ -69,7 +69,7 @@
     "years": "2025",
     "audienceSize": 200,
     "role": "Master of Ceremony",
-    "description": "Hosted the orientation ceremony for the incoming MBA cohort."
+    "description": "Hosted the orientation ceremony for the incoming MBA cohort.",
   },
   {
     "id": "e9",
@@ -78,7 +78,7 @@
     "years": "2025",
     "audienceSize": 100,
     "role": "Master of Ceremony",
-    "description": "Facilitated a workshop on business strategy for MBA students."
+    "description": "Facilitated a workshop on business strategy for MBA students.",
   },
   {
     "id": "e10",
@@ -87,6 +87,6 @@
     "years": "2025",
     "audienceSize": 200,
     "role": "Organising Member & MC",
-    "description": "Key organising member and MC for the college's leadership summit."
-  }
+    "description": "Key organising member and MC for the college's leadership summit.",
+  },
 ]

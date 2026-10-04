@@ -3,16 +3,16 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 const jsoncPlugin = () => ({
-  name: 'jsonc-plugin',
+  name: "jsonc-plugin",
   transform(code, id) {
-    if (id.endsWith('.jsonc')) {
-      const json = code.replace(/\/\/.*|\/\*[\s\S]*?\*\//g, '');
+    if (id.endsWith(".jsonc")) {
+      const json = code.replace(/\/\/.*|\/\*[\s\S]*?\*\//g, "");
       return {
         code: `export default ${json};`,
-        map: null
+        map: null,
       };
     }
-  }
+  },
 });
 
 export default defineConfig({

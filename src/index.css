@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  --color-cream: #FAF6F0;
-  --color-warm: #F2EAE0;
-  --color-warm-border: #E8DED1;
-  --color-terracotta: #A64B2A;
-  --color-terracotta-hover: #8C3E22;
-  --color-terra-lt: #C96B3F;
-  --color-brown: #3C281F;
+  --color-cream: #faf6f0;
+  --color-warm: #f2eae0;
+  --color-warm-border: #e8ded1;
+  --color-terracotta: #a64b2a;
+  --color-terracotta-hover: #8c3e22;
+  --color-terra-lt: #c96b3f;
+  --color-brown: #3c281f;
   --color-dark-strip: #181513;
-  --color-espresso: #38241B;
+  --color-espresso: #38241b;
   --color-espresso-card: rgba(255, 255, 255, 0.06);
-  --color-ink: #201A16;
-  --color-muted: #6E5F55;
-  --color-gold: #C49B5B;
-  --color-white: #FFFFFF;
+  --color-ink: #201a16;
+  --color-muted: #6e5f55;
+  --color-gold: #c49b5b;
+  --color-white: #ffffff;
 
   --font-serif: "Cormorant Garamond", Georgia, serif;
   --font-sans: "DM Sans", system-ui, sans-serif;
@@ -23,19 +23,19 @@
 }
 
 :root {
-  --cream: #FAF6F0;
-  --warm: #F2EAE0;
-  --warm-border: #E8DED1;
-  --terracotta: #A64B2A;
-  --terracotta-hover: #8C3E22;
-  --terra-lt: #C96B3F;
-  --brown: #3C281F;
+  --cream: #faf6f0;
+  --warm: #f2eae0;
+  --warm-border: #e8ded1;
+  --terracotta: #a64b2a;
+  --terracotta-hover: #8c3e22;
+  --terra-lt: #c96b3f;
+  --brown: #3c281f;
   --dark-strip: #181513;
-  --espresso: #38241B;
-  --ink: #201A16;
-  --muted: #6E5F55;
-  --gold: #C49B5B;
-  --white: #FFFFFF;
+  --espresso: #38241b;
+  --ink: #201a16;
+  --muted: #6e5f55;
+  --gold: #c49b5b;
+  --white: #ffffff;
 
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "DM Sans", system-ui, sans-serif;
