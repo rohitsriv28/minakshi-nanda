@@ -1,0 +1,20 @@
+[
+  {
+    "id": "edu1",
+    "startYear": "2025",
+    "endYear": "Present",
+    "degree": "Master of Business Administration",
+    "institution": "Birgunj Public College",
+    "university": "Purvanchal University",
+    "detail": "Focus: Business Management, Organisational Behaviour, Strategic Management, Marketing. Active contributor as Master of Ceremony and key organising member for college events."
+  },
+  {
+    "id": "edu2",
+    "startYear": "2019",
+    "endYear": "2024",
+    "degree": "BSc in Computer Science & IT",
+    "institution": "National Infotech College",
+    "university": "Tribhuvan University",
+    "detail": "4-year program covering Data Structures, AI, Advanced Databases, Web Technology, Cloud Computing, and Project Management. Built a medicine e-commerce platform as final-year project. Won college Ideathon. Served as MC for 7 events (audiences 100–200)."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "e1",
+    "title": "College Symposium",
+    "organization": "National Infotech College",
+    "years": "2023",
+    "audienceSize": 200,
+    "role": "Master of Ceremony",
+    "description": "Hosted the annual college symposium with an audience of over 200 attendees."
+  },
+  {
+    "id": "e2",
+    "title": "Tech Fest 2023",
+    "organization": "National Infotech College",
+    "years": "2023",
+    "audienceSize": 150,
+    "role": "Master of Ceremony",
+    "description": "Led the main stage announcements and speaker introductions."
+  },
+  {
+    "id": "e3",
+    "title": "Ideathon Final Presentations",
+    "organization": "National Infotech College",
+    "years": "2024",
+    "audienceSize": 180,
+    "role": "Master of Ceremony",
+    "description": "Moderated the final pitch sessions for the college Ideathon."
+  },
+  {
+    "id": "e4",
+    "title": "Alumni Meet",
+    "organization": "National Infotech College",
+    "years": "2022",
+    "audienceSize": 100,
+    "role": "Master of Ceremony",
+    "description": "Hosted the college alumni meet and panel discussions."
+  },
+  {
+    "id": "e5",
+    "title": "Freshers Orientation",
+    "organization": "National Infotech College",
+    "years": "2021",
+    "audienceSize": 150,
+    "role": "Master of Ceremony",
+    "description": "Welcomed the new batch of IT students and coordinated the orientation program."
+  },
+  {
+    "id": "e6",
+    "title": "Annual Sports Meet",
+    "organization": "National Infotech College",
+    "years": "2022",
+    "audienceSize": 200,
+    "role": "Master of Ceremony",
+    "description": "Commentated and managed the schedule for the annual sports event."
+  },
+  {
+    "id": "e7",
+    "title": "Guest Lecture Series",
+    "organization": "National Infotech College",
+    "years": "2023",
+    "audienceSize": 120,
+    "role": "Master of Ceremony",
+    "description": "Introduced guest speakers from the tech industry to the student body."
+  },
+  {
+    "id": "e8",
+    "title": "MBA Orientation",
+    "organization": "Birgunj Public College",
+    "years": "2025",
+    "audienceSize": 200,
+    "role": "Master of Ceremony",
+    "description": "Hosted the orientation ceremony for the incoming MBA cohort."
+  },
+  {
+    "id": "e9",
+    "title": "Business Strategy Workshop",
+    "organization": "Birgunj Public College",
+    "years": "2025",
+    "audienceSize": 100,
+    "role": "Master of Ceremony",
+    "description": "Facilitated a workshop on business strategy for MBA students."
+  },
+  {
+    "id": "e10",
+    "title": "Leadership Summit",
+    "organization": "Birgunj Public College",
+    "years": "2025",
+    "audienceSize": 200,
+    "role": "Organising Member & MC",
+    "description": "Key organising member and MC for the college's leadership summit."
+  }
+]

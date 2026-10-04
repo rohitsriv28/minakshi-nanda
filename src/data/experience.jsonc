@@ -1,0 +1,40 @@
+[
+  {
+    "id": "exp1",
+    "period": "Jan 2025 – Feb 2026",
+    "role": "UI/UX Designer",
+    "company": "Qualhon Informatics Pvt. Ltd",
+    "location": "Remote (India)",
+    "points": [
+      "Delivered UI screens and complete user flows across 4 projects including SwiftCare",
+      "Ensured intuitive navigation and visual consistency throughout each product",
+      "Collaborated asynchronously with cross-functional teams, managing design handoffs",
+      "Produced wireframes, mockups, and interactive prototypes in Figma"
+    ]
+  },
+  {
+    "id": "exp2",
+    "period": "Mar 2024 – Dec 2024",
+    "role": "Android Developer & QA Intern",
+    "company": "Lennobyte Solutions",
+    "location": "Birgunj, Nepal",
+    "phases": [
+      {
+        "label": "Android (Mar–Jun 2024):",
+        "points": [
+          "Built a fully functional To-Do app with multiple screens using Kotlin; contributed UI screens for a hospital management application"
+        ]
+      },
+      {
+        "label": "QA (Jul–Dec 2024):",
+        "points": [
+          "Executed structured manual testing across web platform modules; tracked bugs end-to-end"
+        ]
+      }
+    ],
+    "points": [
+      "Contributed to ~20% reduction in open bug backlog",
+      "Participated in sprint reviews to improve release stability"
+    ]
+  }
+]

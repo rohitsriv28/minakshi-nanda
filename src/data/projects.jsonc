@@ -1,0 +1,29 @@
+[
+  {
+    "id": "p1",
+    "number": "01",
+    "year": "2023 – 2024",
+    "title": "Medicine E-Commerce Platform",
+    "description": "Final year project: an online medicine ordering platform designed to address a real accessibility gap for elderly and mobility-limited residents in Birgunj. Independently conceptualised and built end-to-end — from problem research to full-stack implementation.",
+    "badge": "Final Year Project",
+    "badgeEmoji": ""
+  },
+  {
+    "id": "p2",
+    "number": "02",
+    "year": "Mar 2024",
+    "title": "Ideathon — 1st Place",
+    "description": "Led concept, prototype, and pitch for a technology-driven solution. Secured 1st position against 11 competing teams at National Infotech College through strong problem framing, teamwork, and presentation delivery. Team of 5.",
+    "badge": "Winner",
+    "badgeEmoji": "🏆"
+  },
+  {
+    "id": "p3",
+    "number": "03",
+    "year": "2022",
+    "title": "Smart Home Demo",
+    "description": "Designed and built a smart home automation prototype using Arduino and IoT sensors as part of a competitive team workshop during BSc CSIT. Combined hardware design thinking with functional prototyping.",
+    "badge": "IoT Workshop",
+    "badgeEmoji": ""
+  }
+]

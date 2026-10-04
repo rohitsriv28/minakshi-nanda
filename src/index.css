@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f5f0e8;
+  --color-warm: #ede5d8;
+  --color-terracotta: #b4532a;
+  --color-terra-lt: #e8896a;
+  --color-brown: #5c3d2e;
+  --color-ink: #1a1410;
+  --color-muted: #6b5d52;
+  --color-gold: #c8a96e;
+  --color-gold-deep: #8a6d2f;
+  --color-white: #fdfaf5;
+  --color-ring: #b4532a;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "DM Sans", sans-serif;
+  --font-mono: "DM Mono", monospace;
+
+  --animate-scroll-line: scroll-line 1.6s ease-in-out infinite;
+  --animate-hero-rise: hero-rise 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-portrait-settle: portrait-settle 2400ms cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes portrait-settle {
+    from {
+      transform: scale(1.08);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes hero-rise {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scroll-line {
+    0%,
+    100% {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+    50% {
+      transform: scaleX(0.4);
+      transform-origin: left;
+    }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans text-[15px] leading-[1.7] overflow-x-hidden;
+  }
+
+  ::selection {
+    background: #b4532a;
+    color: #fdfaf5;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  /* Subtle paper grain overlay (P3 polish) */
+  .grain::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .grain::after {
+      display: none;
+    }
+  }
+}
