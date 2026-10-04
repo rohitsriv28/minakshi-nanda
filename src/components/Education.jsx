@@ -1,102 +1,65 @@
-import useReveal from "../hooks/useReveal";
-
-const EDUCATION_ITEMS = [
-  {
-    startYear: "2025",
-    endYear: "Present",
-    degree: "Master of Business Administration",
-    school: "Birgunj Public College · Purvanchal University",
-    detail:
-      "Focus: Business Management, Organisational Behaviour, Strategic Management, Marketing. Active contributor as Master of Ceremony and key organising member for college events.",
-  },
-  {
-    startYear: "2019",
-    endYear: "2024",
-    degree: "BSc in Computer Science & IT",
-    school: "National Infotech College · Tribhuvan University",
-    detail:
-      "4-year program covering Data Structures, AI, Advanced Databases, Web Technology, Cloud Computing, and Project Management. Built a medicine e-commerce platform as final-year project. Won college Ideathon. Served as MC for 7 events (audiences 100–200).",
-  },
-];
-
-const LANGUAGES = [
-  "English — Professional",
-  "Hindi — Native",
-  "Nepali — Fluent",
-];
+import { GraduationCap, BookOpen } from "lucide-react";
 
 export default function Education() {
-  const { ref: leftRef, isVisible: leftVisible } = useReveal();
-  const { ref: rightRef, isVisible: rightVisible } = useReveal();
-
   return (
     <section
       id="education"
       aria-labelledby="education-heading"
-      className="bg-cream grid grid-cols-1 lg:grid-cols-[1fr_1.8fr] gap-12 lg:gap-24 items-start px-6 py-20 lg:px-16 lg:py-28"
+      className="py-24 px-6 md:px-12 max-w-[1360px] mx-auto border-t border-[#E8DED1]"
     >
-      {/* Left column (sticky on desktop) */}
-      <div
-        ref={leftRef}
-        className={`lg:sticky lg:top-32 self-start transition-all duration-800 ease-out ${
-          leftVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-7"
-        }`}
-      >
-        <div className="section-label">Education</div>
-        <h2 id="education-heading" className="section-title">
-          The <em>foundation</em>
+      <div className="mb-14">
+        <span className="section-num-tag">06. Education</span>
+        <h2 id="education-heading" className="section-h2">
+          Learning for a <em className="italic text-terracotta font-normal">bigger impact.</em>
         </h2>
-        <p className="text-[0.88rem] text-muted mt-5 font-light leading-[1.8]">
-          A foundation built on computer science, business strategy, and the
-          conviction that technology is best understood through a human lens.
-        </p>
-
-        {/* Language pills */}
-        <div className="flex flex-wrap gap-4 mt-10">
-          {LANGUAGES.map((lang) => (
-            <span
-              key={lang}
-              className="inline-flex items-center gap-2 px-5 py-2 border border-[rgba(92,61,46,0.2)] rounded-full text-[0.8rem] text-brown font-normal"
-            >
-              <span className="w-1.5 h-1.5 rounded-full bg-terracotta inline-block" />
-              {lang}
-            </span>
-          ))}
-        </div>
       </div>
 
-      {/* Right column timeline */}
-      <div
-        ref={rightRef}
-        className={`flex flex-col transition-all duration-800 ease-out ${
-          rightVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-7"
-        }`}
-      >
-        {EDUCATION_ITEMS.map((item, idx) => (
-          <div
-            key={item.degree}
-            className={`grid grid-cols-[80px_1fr] gap-6 py-8 border-b border-[rgba(92,61,46,0.1)] relative ${
-              idx === EDUCATION_ITEMS.length - 1 ? "border-b-0" : ""
-            }`}
-          >
-            <div className="font-mono text-[0.7rem] tracking-[0.08em] text-terracotta text-right pt-[0.2rem] font-normal leading-tight">
-              {item.startYear}
-              <br />
-              {item.endYear}
-            </div>
-            <div>
-              <h3 className="font-serif text-[1.3rem] font-semibold text-brown mb-1 leading-snug">
-                {item.degree}
-              </h3>
-              <div className="text-[0.82rem] text-terracotta font-medium mb-2.5 tracking-[0.03em]">
-                {item.school}
-              </div>
-              <p className="text-[0.8rem] text-muted leading-[1.7] font-light">
-                {item.detail}
-              </p>
-            </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Card 1: MBA */}
+        <div className="bg-white rounded-[6px] border border-[#E6DCCF] p-8 shadow-sm transition-all duration-200 hover:border-terracotta/40 hover:shadow-md flex items-start gap-5">
+          <div className="w-12 h-12 rounded-full bg-cream border border-[#E8DED1] flex items-center justify-center shrink-0 mt-1">
+            <GraduationCap className="w-6 h-6 text-terracotta" />
           </div>
-        ))}
+          <div>
+            <h3 className="font-serif text-[1.28rem] font-semibold text-brown mb-1 leading-snug">
+              Master of Business Administration (MBA)
+            </h3>
+            <p className="text-[0.88rem] text-terracotta font-medium mb-1">
+              Purvanchal University
+            </p>
+            <p className="font-mono text-[0.72rem] text-muted uppercase font-medium mb-4">
+              May 2025 – Present
+            </p>
+            <p className="text-[0.85rem] text-muted leading-[1.7] font-light">
+              Focus areas: Business Management, Organisational Behaviour,
+              Strategic Management, Marketing. Active contributor as Master of
+              Ceremony and key organising member for college events.
+            </p>
+          </div>
+        </div>
+
+        {/* Card 2: BSc CSIT */}
+        <div className="bg-white rounded-[6px] border border-[#E6DCCF] p-8 shadow-sm transition-all duration-200 hover:border-terracotta/40 hover:shadow-md flex items-start gap-5">
+          <div className="w-12 h-12 rounded-full bg-cream border border-[#E8DED1] flex items-center justify-center shrink-0 mt-1">
+            <BookOpen className="w-6 h-6 text-terracotta" />
+          </div>
+          <div>
+            <h3 className="font-serif text-[1.28rem] font-semibold text-brown mb-1 leading-snug">
+              BSc in Computer Science &amp; IT (BSc CSIT)
+            </h3>
+            <p className="text-[0.88rem] text-terracotta font-medium mb-1">
+              Tribhuvan University
+            </p>
+            <p className="font-mono text-[0.72rem] text-muted uppercase font-medium mb-4">
+              2019 – 2024
+            </p>
+            <p className="text-[0.85rem] text-muted leading-[1.7] font-light">
+              Relevant coursework: Data Structures &amp; Algorithms, Artificial
+              Intelligence, Networking, Databases, Web Technology, Advanced
+              Java, Cloud Computing and more.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

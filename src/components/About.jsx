@@ -1,99 +1,101 @@
-import useReveal from "../hooks/useReveal";
+import { ArrowRight, Code, ShieldCheck, Briefcase, Mic } from "lucide-react";
 
-const STATS = [
-  { num: "4+", label: "Projects Designed" },
-  { num: "10+", label: "Events as MC" },
-  { num: "20%", label: "Bug Reduction at Lennobyte" },
-  { num: "1st", label: "Ideathon Winner" },
-];
-
-const TRAITS = [
-  "UI/UX Design",
-  "Public Speaking",
-  "Figma",
-  "Android QA",
-  "Event Management",
-  "Business Strategy",
-  "Prototyping",
-  "Cross-functional",
+const PILLARS = [
+  {
+    icon: <Code className="w-5 h-5 text-terracotta" />,
+    title: "Technology",
+    desc: "CSIT background with hands-on development and QA experience.",
+  },
+  {
+    icon: <ShieldCheck className="w-5 h-5 text-terracotta" />,
+    title: "Product & Quality",
+    desc: "Built products, tested systems and improved release quality.",
+  },
+  {
+    icon: <Briefcase className="w-5 h-5 text-terracotta" />,
+    title: "Operations & Business",
+    desc: "Leading operations and business development initiatives.",
+  },
+  {
+    icon: <Mic className="w-5 h-5 text-terracotta" />,
+    title: "Leadership & Events",
+    desc: "Organising events, public speaking and working with diverse people.",
+  },
 ];
 
 export default function About() {
-  const { ref: leftRef, isVisible: leftVisible } = useReveal();
-  const { ref: rightRef, isVisible: rightVisible } = useReveal();
-
   return (
     <section
       id="about"
       aria-labelledby="about-heading"
-      className="bg-white grid grid-cols-1 lg:grid-cols-[1fr_1.3fr] gap-12 lg:gap-24 items-center px-6 py-20 lg:px-16 lg:py-28"
+      className="py-24 px-6 md:px-12 max-w-[1360px] mx-auto"
     >
-      {/* Left bio column */}
-      <div
-        ref={leftRef}
-        className={`transition-all duration-800 ease-out ${
-          leftVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-7"
-        }`}
-      >
-        <div className="section-label">About Me</div>
-        <h2 id="about-heading" className="section-title">
-          Design, <em>data</em> &amp;
-          <br />
-          the human side
-        </h2>
+      <span className="section-num-tag">01. About Me</span>
 
-        <blockquote className="font-serif text-[1.15rem] italic text-muted my-6 pl-6 border-l-2 border-gold leading-[1.7]">
-          &ldquo;I believe good design is a conversation — and I&apos;ve spent
-          years learning how to lead it.&rdquo;
-        </blockquote>
+      <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.85fr_1.05fr] gap-12 lg:gap-10 items-center">
+        {/* Left Column Text */}
+        <div className="flex flex-col items-start">
+          <h2 id="about-heading" className="section-h2 mb-6">
+            Technology-trained.
+            <br />
+            Business-minded.
+            <br />
+            <em className="italic text-terracotta font-normal">People-focused.</em>
+          </h2>
 
-        <p className="text-[0.9rem] text-muted leading-[1.85] font-light mb-5">
-          BSc CSIT graduate with hands-on experience in UI/UX design and Android
-          QA, now pursuing an MBA at Purvanchal University. I sit at the
-          intersection of technology, creativity, and people-facing
-          communication.
-        </p>
+          <p className="text-[0.92rem] text-muted leading-[1.8] font-light mb-4">
+            I am a technology professional with experience spanning Android
+            development, quality assurance, business operations and organisational
+            growth. Currently, I serve as Head of Operations &amp; Business
+            Development at Surya Business Development Center Pvt. Ltd., while
+            pursuing an MBA at Purvanchal University.
+          </p>
 
-        <p className="text-[0.9rem] text-muted leading-[1.85] font-light">
-          From shipping design systems at Qualhon Informatics to reducing bug
-          backlogs at Lennobyte Solutions — and hosting audiences of 200 from a
-          stage — I thrive where clarity of thought meets clarity of expression.
-        </p>
-      </div>
+          <p className="text-[0.92rem] text-muted leading-[1.8] font-light mb-8">
+            I enjoy working at the intersection of technology, business and people
+            — creating solutions, building partnerships, organising events and
+            contributing to meaningful opportunities.
+          </p>
 
-      {/* Right stats and traits column */}
-      <div
-        ref={rightRef}
-        className={`flex flex-col gap-6 transition-all duration-800 ease-out ${
-          rightVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-7"
-        }`}
-      >
-        {/* 2x2 Stats Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-[1px] bg-warm border border-warm rounded-[2px] overflow-hidden">
-          {STATS.map((stat) => (
-            <div
-              key={stat.label}
-              className="bg-white p-7 transition-colors duration-300 hover:bg-cream"
-            >
-              <div className="font-serif text-[2.8rem] font-light text-terracotta leading-none mb-1">
-                {stat.num}
-              </div>
-              <div className="text-[0.75rem] tracking-[0.08em] uppercase text-muted font-medium">
-                {stat.label}
-              </div>
-            </div>
-          ))}
+          <a href="#journey" className="btn-outline-terracotta">
+            More About Me <ArrowRight className="w-4 h-4" />
+          </a>
         </div>
 
-        {/* Traits Pills */}
-        <div className="flex flex-wrap gap-2.5">
-          {TRAITS.map((trait) => (
-            <span
-              key={trait}
-              className="px-4 py-1.5 border border-gold rounded-full text-[0.75rem] tracking-[0.05em] text-brown font-medium bg-[rgba(200,169,110,0.08)] transition-all duration-300 hover:bg-gold hover:text-white cursor-default"
+        {/* Center Column Portrait Photo */}
+        <div className="flex flex-col items-center justify-center">
+          <div className="w-full max-w-[320px] aspect-[3.2/4] rounded-[10px] overflow-hidden shadow-[0_16px_40px_rgba(60,40,31,0.12)] border-[3px] border-white bg-warm">
+            <img
+              src="/about-portrait.jpg"
+              alt="Minakshi Nanda smiling"
+              className="w-full h-full object-cover object-top"
+              loading="lazy"
+            />
+          </div>
+          <p className="font-script text-[1.45rem] text-muted text-center mt-4 leading-snug">
+            &ldquo;Curious learner, problem solver and people person.&rdquo;
+          </p>
+        </div>
+
+        {/* Right Column 4 Feature Cards */}
+        <div className="flex flex-col gap-4">
+          {PILLARS.map((pillar) => (
+            <div
+              key={pillar.title}
+              className="flex items-start gap-4 p-4 rounded-[6px] bg-[#FAF5EE] border border-[#EBE1D3] transition-all duration-200 hover:border-terracotta/40 hover:bg-white hover:shadow-sm"
             >
-              {trait}
-            </span>
+              <div className="w-10 h-10 rounded-[6px] bg-terracotta/10 border border-terracotta/20 flex items-center justify-center shrink-0 mt-0.5">
+                {pillar.icon}
+              </div>
+              <div>
+                <h3 className="font-serif text-[1.05rem] font-medium text-brown mb-0.5">
+                  {pillar.title}
+                </h3>
+                <p className="text-[0.8rem] text-muted leading-[1.6] font-light">
+                  {pillar.desc}
+                </p>
+              </div>
+            </div>
           ))}
         </div>
       </div>
