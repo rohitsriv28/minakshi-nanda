@@ -1,4 +1,4 @@
-import { Linkedin, Instagram, Youtube, ArrowUp } from "lucide-react";
+import { Linkedin, Instagram, ArrowUp } from "lucide-react";
 
 const FOOTER_LINKS = [
   { href: "#about", label: "About" },
@@ -49,7 +49,7 @@ export default function Footer() {
           {/* Social Icons matching Screen 9 */}
           <div className="flex items-center gap-2.5">
             <a
-              href="https://linkedin.com/in/minakshi-nanda"
+              href="https://www.linkedin.com/in/minakchi-nanda/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
@@ -66,16 +66,6 @@ export default function Footer() {
               className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-white/80 hover:text-white hover:border-white transition-colors"
             >
               <Instagram className="w-3.5 h-3.5" />
-            </a>
-
-            <a
-              href="https://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="YouTube Channel"
-              className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-white/80 hover:text-white hover:border-white transition-colors"
-            >
-              <Youtube className="w-3.5 h-3.5" />
             </a>
 
             <button

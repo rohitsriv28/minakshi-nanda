@@ -24,7 +24,7 @@ export default function Contact() {
           </p>
 
           <a
-            href="mailto:contact@minakshinanda.com.np"
+            href="mailto:minakchinanda123@gmail.com"
             className="btn-terracotta"
           >
             Start a Conversation <ArrowRight className="w-4 h-4 ml-1" />
@@ -34,7 +34,7 @@ export default function Contact() {
         {/* Center Column 3 Info Cards */}
         <div className="flex flex-col gap-4">
           <a
-            href="mailto:contact@minakshinanda.com.np"
+            href="mailto:minakchinanda123@gmail.com"
             className="flex items-center gap-4 p-4 rounded-[6px] bg-white border border-[#E6DCCF] transition-all duration-200 hover:border-terracotta/40 hover:shadow-sm no-underline"
           >
             <div className="w-10 h-10 rounded-[6px] bg-terracotta/10 border border-terracotta/20 flex items-center justify-center shrink-0">
@@ -44,14 +44,14 @@ export default function Contact() {
               <div className="text-[0.68rem] tracking-[0.1em] uppercase text-muted font-medium">
                 Email
               </div>
-              <div className="text-[0.88rem] text-brown font-medium">
-                minakshinanda.com.np
+              <div className="text-[0.88rem] text-brown font-medium break-all">
+                minakchinanda123@gmail.com
               </div>
             </div>
           </a>
 
           <a
-            href="https://linkedin.com/in/minakshi-nanda"
+            href="https://www.linkedin.com/in/minakchi-nanda/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-4 rounded-[6px] bg-white border border-[#E6DCCF] transition-all duration-200 hover:border-terracotta/40 hover:shadow-sm no-underline"
@@ -126,7 +126,7 @@ export default function Contact() {
         <div className="w-full grid grid-cols-3 gap-2 sm:gap-3 mb-6 text-center">
           {/* Email */}
           <a
-            href="mailto:contact@minakshinanda.com.np"
+            href="mailto:minakchinanda123@gmail.com"
             className="flex flex-col items-center justify-center p-3 rounded-[6px] bg-white border border-[#E6DCCF] no-underline hover:border-terracotta/40"
           >
             <div className="w-8 h-8 rounded-[4px] bg-terracotta/10 flex items-center justify-center mb-1.5">
@@ -135,14 +135,14 @@ export default function Contact() {
             <div className="text-[0.62rem] uppercase tracking-wider text-muted font-medium mb-0.5">
               Email
             </div>
-            <div className="text-[0.68rem] text-brown font-medium truncate w-full">
-              minakshinanda.com.np
+            <div className="text-[0.68rem] text-brown font-medium truncate w-full" title="minakchinanda123@gmail.com">
+              minakchinanda123@gmail.com
             </div>
           </a>
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/minakshi-nanda"
+            href="https://www.linkedin.com/in/minakchi-nanda/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center p-3 rounded-[6px] bg-white border border-[#E6DCCF] no-underline hover:border-terracotta/40"
@@ -174,7 +174,7 @@ export default function Contact() {
 
         {/* Full-width CTA button */}
         <a
-          href="mailto:contact@minakshinanda.com.np"
+          href="mailto:minakchinanda123@gmail.com"
           className="btn-terracotta w-full justify-center text-center py-3 text-[0.88rem]"
         >
           Start a Conversation <ArrowRight className="w-4 h-4 ml-1" />

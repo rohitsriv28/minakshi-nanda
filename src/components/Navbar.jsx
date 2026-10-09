@@ -7,7 +7,6 @@ import {
   Linkedin,
   MapPin,
   Instagram,
-  Youtube,
 } from "lucide-react";
 
 const NAV_LINKS = [
@@ -151,14 +150,14 @@ export default function Navbar() {
           <div className="pt-6 border-t border-white/10 flex flex-col gap-4">
             <div className="flex flex-col gap-2.5 text-[0.82rem] text-white/70">
               <a
-                href="mailto:minakshinanda.com.np"
+                href="mailto:minakchinanda123@gmail.com"
                 className="flex items-center gap-3 text-inherit no-underline hover:text-white"
               >
                 <Mail className="w-4 h-4 text-terracotta shrink-0" />
-                <span>minakshinanda.com.np</span>
+                <span>minakchinanda123@gmail.com</span>
               </a>
               <a
-                href="https://linkedin.com/in/minakshi-nanda"
+                href="https://www.linkedin.com/in/minakchi-nanda/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-inherit no-underline hover:text-white"
@@ -189,14 +188,6 @@ export default function Navbar() {
                 className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-white/70 hover:text-white hover:border-white transition-colors"
               >
                 <Instagram className="w-3.5 h-3.5" />
-              </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-white/70 hover:text-white hover:border-white transition-colors"
-              >
-                <Youtube className="w-3.5 h-3.5" />
               </a>
             </div>
           </div>
